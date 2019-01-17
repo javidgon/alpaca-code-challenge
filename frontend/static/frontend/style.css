@@ -1,0 +1,43 @@
+.nav-item {
+    padding-left: 20px;
+}
+
+.has-danger {
+    color: red;
+}
+
+.text-help {
+    color: red;
+}
+
+.task-row {
+    padding: 10px;
+    list-style: none;
+    margin: 10px;
+}
+
+.outside-hours {
+    background-color: #ff6961;
+}
+
+.within-hours {
+    background-color: #99ff99;
+}
+
+.right-btn {
+    float: right;
+    margin: 5px;
+}
+
+.attr-title {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.attr-value {
+    margin-right: 20px
+}
+
+.btn-submit {
+    margin-left: 10px;
+}

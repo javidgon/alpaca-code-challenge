@@ -1,0 +1,41 @@
+{
+  "name": "alpaca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./frontend/src/index.js --output ./frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./frontend/src/index.js --output ./frontend/static/frontend/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "js-cookie": "^2.2.0",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.6.2",
+    "query-string": "^6.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-widgets": "^4.4.9",
+    "redux": "^4.0.1",
+    "redux-form": "^8.1.0",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "moment": "^2.23.0",
+    "react-redux-i18n": "^1.9.3",
+    "react-widgets-moment": "^4.0.25"
+  }
+}
